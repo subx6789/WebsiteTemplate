@@ -1,0 +1,646 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+  /* position: absolute; */
+  height: 20px;
+  /* overflow: hidden; */
+  background-color: white;
+  display: flex;
+  align-content: space-between;
+}
+.nav-right ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding-left: 300px;
+  margin-top: 6px;
+}
+.nav-right li {
+  margin: 20px;
+  position: relative;
+}
+.nav-right a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+  padding: 0 15px;
+  line-height: 50px;
+  letter-spacing: 0.5px;
+}
+.nav-right a:hover {
+  cursor: pointer;
+  color: #4883ff;
+  font-size: larger;
+  font-weight: bolder;
+}
+.nav-left img {
+  margin-left: 130px;
+}
+.content-1 {
+  background-image: url("img/main_banner.jpg");
+  width: 100%;
+  height: 681px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 80px;
+}
+/* .black-layer{
+    height: 800px;
+    background-color: black;
+    opacity: 0.8;
+} */
+.space {
+  height: 230px;
+}
+.line {
+  height: 3px;
+  width: 80px;
+  background-color: #4883ff;
+  margin-left: 230px;
+}
+.heading h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 42px;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+.heading span {
+  font-size: 22px;
+  color: #fff;
+  letter-spacing: 0.5px;
+  font-family: "Open Sans", sans-serif;
+}
+.heading {
+  margin-left: 230px;
+  margin-top: 7px;
+}
+.discover-btn {
+  margin-left: 230px;
+  margin-top: 30px;
+}
+.dbtn {
+  background-color: #4883ff;
+  padding: 10px;
+  text-shadow: none;
+  border: #4883ff;
+  color: white;
+  letter-spacing: 0.5px;
+  font-weight: bolder;
+  font-family: "Open Sans", sans-serif;
+  transition: all 0.2s;
+}
+.dbtn:hover {
+  background-color: transparent;
+  color: #4883ff;
+  border: 3px solid #4883ff;
+  cursor: pointer;
+}
+.space-search {
+  height: 145px;
+  /* background-color: red; */
+}
+.search-box {
+  display: inline-block;
+  margin-left: 230px;
+  background-color: white;
+  border-bottom: 5px solid #4883ff;
+  border-left: 20px solid white;
+  border-right: 20px solid white;
+  padding-bottom: 13px;
+}
+.search-box input {
+  padding: 15px 0;
+  background-color: white;
+  /*     border-bottom: 5px solid #4883ff; */
+  /*     width: 20vw ; */
+  margin-top: 15px;
+  border: 0;
+  font-family: "Open Sans", sans serif;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+.search-box select {
+  padding: 15px 0;
+  background-color: white;
+  /*     border-bottom: 5px solid #4883ff; */
+  width: 16vw;
+  margin-top: 15px;
+  border: 0;
+  font-family: "Open Sans", sans serif;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+.search-box select option {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+}
+.search {
+  padding: 15px 0;
+  background-color: white;
+  /*     border-bottom: 5px solid #4883ff; */
+  width: 16vw;
+  margin-top: 15px;
+  background-color: #4883ff;
+  color: white;
+  font-family: "Open Sans", sans serif;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+.search:hover {
+  cursor: pointer;
+  color: #4883ff;
+  background-color: white;
+  border: 3px solid #4883ff;
+}
+.popular-places {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.upper-side {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.upper-side span {
+  color: #4883ff;
+}
+.upper-side h1 {
+  padding-top: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+}
+.carousel {
+  padding-top: 35px;
+  /* background-color: red; */
+  overflow: hidden;
+}
+.card {
+  display: flex;
+  margin-left: 70px;
+  position: relative;
+  gap: 40px;
+}
+.card img {
+  border-radius: 10px;
+}
+.textcard1 {
+  position: absolute;
+  top: 75%;
+  left: 17px;
+}
+.textcard1 h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  color: #fff;
+}
+.textcard1 span {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  color: #fff;
+}
+.textcard1 span button {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-weight: 800;
+  padding: 5px;
+  margin: 0 100px;
+}
+.textcard1 span button:hover {
+  cursor: pointer;
+}
+.textcard2 {
+  position: absolute;
+  top: 75%;
+  left: 303px;
+}
+.textcard2 h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  color: #fff;
+}
+.textcard2 span {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  color: #fff;
+}
+.textcard2 span button {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-weight: 800;
+  padding: 5px;
+  margin: 0 100px;
+}
+.textcard2 span button:hover {
+  cursor: pointer;
+}
+.textcard3 {
+  position: absolute;
+  top: 75%;
+  left: 587px;
+}
+.textcard3 h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  color: #fff;
+}
+.textcard3 span {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  color: #fff;
+}
+.textcard3 span button {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-weight: 800;
+  padding: 5px;
+  margin: 0 100px;
+}
+.textcard3 span button:hover {
+  cursor: pointer;
+}
+.textcard4 {
+  position: absolute;
+  top: 75%;
+  left: 872px;
+}
+.textcard4 h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  color: #fff;
+}
+.textcard4 span {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  color: #fff;
+}
+.textcard4 span button {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-weight: 800;
+  padding: 5px;
+  margin: 0 100px;
+}
+.textcard4 span button:hover {
+  cursor: pointer;
+}
+.textcard5 {
+  position: absolute;
+  top: 75%;
+  left: 1151px;
+}
+.textcard5 h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  color: #fff;
+}
+.textcard5 span {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  color: #fff;
+}
+.textcard5 span button {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-weight: 800;
+  padding: 5px;
+  margin: 0 100px;
+}
+.textcard5 span button:hover {
+  cursor: pointer;
+}
+#radio1 {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 730px;
+  cursor: pointer;
+}
+#radio2 {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 750px;
+  cursor: pointer;
+}
+#radio3 {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 770px;
+  cursor: pointer;
+}
+.content-3 {
+  padding-bottom: 70px;
+  background-color: #f4f4f4;
+}
+.featured-places {
+  background-color: #f4f4f4;
+}
+.fhandeler {
+  display: flex;
+  margin-left: 80px;
+  position: relative;
+  gap: 40px;
+  background-color: #f4f4f4;
+}
+.f-1 {
+  background-color: white;
+  margin-right: 90px;
+  border: 2px solid white;
+}
+.f-1 h1 {
+  margin-left: 5%;
+  font-family: "Open Sans", sans serif;
+  font-weight: 1000px;
+  letter-spacing: 0.5px;
+}
+.f-1 h3 {
+  margin-left: 5%;
+  font-family: "Open Sans", sans serif;
+  font-weight: 1000px;
+  font-size: 13px;
+  color: #4883ff;
+  letter-spacing: 0.5px;
+}
+.f-1 h5 {
+  margin-left: 5%;
+  font-family: "Open Sans", sans serif;
+  font-weight: 1000px;
+  font-size: 12.5px;
+  margin-top: 10px;
+  letter-spacing: 0.5px;
+  padding-bottom: 12px;
+  color: #7a7a7a;
+}
+.extras {
+  display: flex;
+  justify-content: center;
+  background-color: #7a7a7a;
+}
+.extras button {
+  margin: 0.2%;
+  padding: 2.5% 4.23vw;
+  font-family: "Open Sans", sans serif;
+  font-size: 12.5px;
+  border: none;
+  background-color: white;
+  color: #7a7a7a;
+}
+.extras button:hover {
+  color: #4883ff;
+  cursor: pointer;
+}
+.content-4 {
+  height: 850px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.video-container {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+.video-content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+}
+.inner {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  color: white;
+}
+.play-btn {
+  padding: 15px;
+  margin: 10px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.play-btn:hover {
+  cursor: pointer;
+}
+.video-container video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: auto;
+}
+.content-5 {
+  padding-top: 90px;
+  /* background-color: white; */
+  padding-bottom: 90px;
+}
+.price {
+  background-color: white;
+}
+.file-handeler {
+  display: flex;
+  margin-left: 80px;
+  position: relative;
+  gap: 40px;
+  background-color: white;
+}
+.price-chart {
+  background-color: #ede7e7;
+  margin: 0 3%;
+}
+.head {
+  background-color: #4883ff;
+  padding: 25px 100px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans serif;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+.head h2 {
+  margin-bottom: 10px;
+}
+.head h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: 1200px;
+}
+.head h3 {
+  font-size: 15px;
+  font-weight: normal;
+}
+.additionals {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 28px;
+}
+.additionals h3 {
+  color: black;
+  margin: 8px;
+  font-family: "Open Sans", sans serif;
+}
+.additionals .buy-btn {
+  margin-top: 25px;
+}
+.additionals button {
+  padding: 17px 30px;
+}
+.map {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.google-map {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.google-map iframe {
+  width: 100%;
+  height: 600px;
+}
+.contact-us {
+  padding-bottom: 60px;
+}
+.contact-us-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+.contact-us-div h2 {
+  color: #4883ff;
+  font-weight: normal;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.contact-us-div h1 {
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+.contact-us-div button {
+  padding: 15px 25px;
+}
+.footer-1 {
+  padding-top: 90px;
+}
+.end {
+  display: flex;
+}
+.part-1 {
+  margin: 50px 300px 50px 90px;
+  /* background-color: red; */
+}
+.part-1 p {
+  padding-top: 40px;
+  color: #7a7a7a;
+  font-family: "Open Sans", sans serif;
+  font-size: 13px;
+}
+.part-1 ul {
+  display: flex;
+  padding-top: 20px;
+}
+.part-1 ul li {
+  list-style: none;
+  margin: 5px;
+}
+.part-1 ul li:hover {
+  cursor: pointer;
+}
+.part-2 {
+  /* background-color: red; */
+  margin-bottom: 80px;
+  margin-top: 50px;
+  padding-right: 200px;
+}
+.part-2 span {
+  font-family: "Open Sans", sans serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.part-2 ul li {
+  list-style: square;
+  padding-top: 10px;
+  color: #7a7a7a;
+  font-family: "Open Sans", sans serif;
+  font-size: 13px;
+}
+.part-2 ul li:hover {
+  color: #4883ff;
+  cursor: pointer;
+}
+.part-3 {
+  /* background-color: red; */
+  margin-top: 50px;
+}
+.part-3 h1 {
+  font-family: "Open Sans", sans serif;
+  margin-bottom: 35px;
+}
+.part-3 p {
+  font-family: "Open Sans", sans serif;
+  font-size: 13px;
+  margin-bottom: 50px;
+  color: #7a7a7a;
+}
+.part-3 ul li label {
+  font-family: "Open Sans", sans serif;
+  font-size: 13px;
+  color: #7a7a7a;
+}
+.part-3 ul {
+  list-style: none;
+}
+.part-3 ul li span {
+  font-family: "Open Sans", sans serif;
+  font-size: 13px;
+  color: #4883ff;
+}
+.part-3 ul li span:hover {
+  cursor: pointer;
+}
+.footer-2 {
+  text-align: center;
+}
+.footer-2 a {
+  text-decoration: none;
+  font-family: "Open Sans", sans serif;
+  color: #7a7a7a;
+}
+.footer-2 span {
+  font-family: "Open Sans", sans serif;
+  color: #7a7a7a;
+}
